@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff7613;
+    --text-color: #727171;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.title {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+
+
+.container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background: #070707;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+
+.profile {
+    grid-column: 1 / -1;
+    margin-bottom: 2rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    pa
+}
+
+/*.section_1,
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}*/
+
+
+.profile_container {
+    display: flex;
+    gap: 2rem;
+}
+
+.profile_profileImg {
+    max-width: 250px;
+}
+
+.profile_firstName {
+    font-weight: 600;
+    color: white;
+    font-size: clamp(3 rem, 12vw, 5rem);
+    display: block;
+
+}
+
+.profile_secondName {
+    color: yellow;
+    font-weight: 600;
+    font-size: clamp(2rem ,14vw, 5rem);
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.title {
+    color: yellow;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.skills {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+.interests {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+.edu {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+.awards {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
+
+.projects {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2;
+}
